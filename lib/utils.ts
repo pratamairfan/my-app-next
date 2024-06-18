@@ -1,5 +1,5 @@
-export const formatDate = (datestr: string) => {
-  const date = new Date(datestr);
+export const formatDate = (dateStr: string) => {
+  const date = new Date(dateStr);
   const formatter = new Intl.DateTimeFormat("id-ID", {
     dateStyle: "medium",
     timeStyle: "short",
